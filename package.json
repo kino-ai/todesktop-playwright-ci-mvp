@@ -1,12 +1,16 @@
 {
-  "name": "electron-quick-start",
+  "name": "todesktop-quick-start",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal Electron application deployed by ToDesktop",
   "main": "main.js",
   "scripts": {
+    "release": "npx todesktop .",
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/ToDesktop/todesktop-quick-start",
+  "bugs": {
+    "url": "https://github.com/ToDesktop/todesktop-quick-start/issues"
+  },
   "keywords": [
     "Electron",
     "quick",
@@ -17,6 +21,9 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^8.0.2"
+    "electron": "8.0.2"
+  },
+  "dependencies": {
+    "@todesktop/runtime": "^0.0.2"
   }
 }
