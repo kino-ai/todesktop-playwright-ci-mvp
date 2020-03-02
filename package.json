@@ -12,11 +12,17 @@
     "url": "https://github.com/ToDesktop/todesktop-quick-start/issues"
   },
   "keywords": [
+    "deployment",
+    "release",
+    "delivery",
+    "auto-updates",
+    "desktop app"
     "Electron",
     "quick",
     "start",
     "tutorial",
-    "demo"
+    "demo",
+    "cli"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
