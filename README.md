@@ -25,7 +25,7 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ## Deployment
 
-To deploy your application, run `npm run release` at the root of the project. This uses [@todesktop/cli](https://npmjs.com/package/@todesktop/cli). Once it completes, download links to your desktop app will be shown in the command line.
+To deploy your application, run `npm run release` at the root of the project. This uses [@todesktop/cli](https://npmjs.com/package/@todesktop/cli). Once it completes, URLs to download your desktop app will be shown in the command line.
 
 ## Noteworthy changes from electron-quick-start
 
