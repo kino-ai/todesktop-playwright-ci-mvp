@@ -27,8 +27,8 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "8.0.2",
-    "@todesktop/cli": "^0.0.1"
+    "@todesktop/cli": "^0.1.0",
+    "electron": "8.0.2"
   },
   "dependencies": {
     "@todesktop/runtime": "^0.0.3"
