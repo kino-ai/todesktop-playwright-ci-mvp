@@ -27,10 +27,10 @@
   "author": "Adam Lynch <adam@todesktop.com>",
   "license": "CC0-1.0",
   "devDependencies": {
-    "@todesktop/cli": "^0.3.0",
-    "electron": "8.0.2"
+    "@todesktop/cli": "^0.7.0",
+    "electron": "9.0.0"
   },
   "dependencies": {
-    "@todesktop/runtime": "0.0.3"
+    "@todesktop/runtime": "^0.1.2"
   }
 }
