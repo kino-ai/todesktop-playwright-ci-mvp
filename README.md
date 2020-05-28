@@ -35,6 +35,7 @@ This template project is based on [electron-quick-start](https://github.com/elec
 - [main.js](./main.js) uses [@todesktop/runtime](https://npmjs.com/package/@todesktop/runtime). This handles auto-updates, etc.
 - The [`npm run release` command](./package.json) uses [@todesktop/cli](https://npmjs.com/package/@todesktop/cli) to deploy the app.
 - The `electron` version in [`devDependencies`](./package.json) is fixed (it doesn't start with `^` or `~`). ToDesktop will use this version when building the app binaries.
+- The `author` in [`package.json`](./package.json) contains an email.
 
 ## More documentation
 

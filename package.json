@@ -24,13 +24,13 @@
     "demo",
     "cli"
   ],
-  "author": "GitHub",
+  "author": "Adam Lynch <adam@todesktop.com>",
   "license": "CC0-1.0",
   "devDependencies": {
     "@todesktop/cli": "^0.3.0",
     "electron": "8.0.2"
   },
   "dependencies": {
-    "@todesktop/runtime": "^0.0.3"
+    "@todesktop/runtime": "0.0.3"
   }
 }
