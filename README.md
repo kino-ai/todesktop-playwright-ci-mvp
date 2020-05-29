@@ -33,7 +33,8 @@ This template project is based on [electron-quick-start](https://github.com/elec
 
 - [todesktop.json](./todesktop.json) contains some configuaration for ToDesktop. This includes pointing to [icon.png](./icon.png) as the app icon.
 - [main.js](./main.js) uses [@todesktop/runtime](https://npmjs.com/package/@todesktop/runtime). This handles auto-updates, etc.
-- The [`npm run release` command](./package.json) uses [@todesktop/cli](https://npmjs.com/package/@todesktop/cli) to deploy the app.
+- The [`npm run release` command](./package.json) uses [@todesktop/cli](https://npmjs.com/package/@todesktop/cli) to deploy the app to production.
+- The [`npm run build` command](./package.json) uses [@todesktop/cli](https://npmjs.com/package/@todesktop/cli) to build the app for development use.
 - The `electron` version in [`devDependencies`](./package.json) is fixed (it doesn't start with `^` or `~`). ToDesktop will use this version when building the app binaries.
 - The `author` in [`package.json`](./package.json) contains an email.
 
