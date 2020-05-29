@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "release": "todesktop .",
+    "build": "todesktop build .",
     "start": "electron ."
   },
   "repository": "https://github.com/ToDesktop/todesktop-quick-start",
