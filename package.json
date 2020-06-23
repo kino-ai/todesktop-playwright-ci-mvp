@@ -1,5 +1,6 @@
 {
   "name": "todesktop-quick-start",
+  "productName": "ToDesktop Quick Start",
   "version": "1.0.0",
   "description": "A minimal Electron application deployed by ToDesktop",
   "main": "main.js",

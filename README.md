@@ -37,6 +37,7 @@ This template project is based on [electron-quick-start](https://github.com/elec
 - The [`npm run build` command](./package.json) uses [@todesktop/cli](https://npmjs.com/package/@todesktop/cli) to build the app for development use.
 - The `electron` version in [`devDependencies`](./package.json) is fixed (it doesn't start with `^` or `~`). ToDesktop will use this version when building the app binaries.
 - The `author` in [`package.json`](./package.json) contains an email.
+- Added `productName` in [`package.json`](./package.json).
 
 ## More documentation
 
