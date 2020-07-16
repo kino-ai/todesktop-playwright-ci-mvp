@@ -5,7 +5,7 @@
   "description": "A minimal Electron application deployed by ToDesktop",
   "main": "main.js",
   "scripts": {
-    "release": "todesktop .",
+    "release": "todesktop release .",
     "build": "todesktop build .",
     "start": "electron ."
   },
