@@ -33,6 +33,6 @@
     "electron": "9.0.0"
   },
   "dependencies": {
-    "@todesktop/runtime": "^0.2.0"
+    "@todesktop/runtime": "^0.2.7"
   }
 }
