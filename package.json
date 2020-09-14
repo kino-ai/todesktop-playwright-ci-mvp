@@ -9,25 +9,8 @@
     "build": "todesktop build .",
     "start": "electron ."
   },
-  "repository": "https://github.com/ToDesktop/todesktop-quick-start",
-  "bugs": {
-    "url": "https://github.com/ToDesktop/todesktop-quick-start/issues"
-  },
-  "keywords": [
-    "deployment",
-    "release",
-    "delivery",
-    "auto-updates",
-    "desktop app",
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo",
-    "cli"
-  ],
-  "author": "Adam Lynch <adam@todesktop.com>",
-  "license": "CC0-1.0",
+  "author": "Your Name <info@example.com>",
+  "license": "UNLICENSED",
   "devDependencies": {
     "@todesktop/cli": "^0.18.2",
     "electron": "10.1.1"
