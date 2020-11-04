@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "A minimal Electron application deployed by ToDesktop",
   "main": "main.js",
+  "homepage": "https://todesktop.com",
   "scripts": {
     "release": "todesktop release .",
     "build": "todesktop build .",
