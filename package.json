@@ -1,7 +1,7 @@
 {
   "name": "todesktop-quick-start",
   "productName": "ToDesktop Quick Start",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A minimal Electron application deployed by ToDesktop",
   "main": "main.js",
   "homepage": "https://todesktop.com",
@@ -13,10 +13,10 @@
   "author": "Your Name <info@example.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@todesktop/cli": "^0.18.2",
-    "electron": "10.1.1"
+    "@todesktop/cli": "^0.28.2",
+    "electron": "19.0.4"
   },
   "dependencies": {
-    "@todesktop/runtime": "^0.2.7"
+    "@todesktop/runtime": "^1.0.2"
   }
 }
