@@ -13,7 +13,7 @@
   "author": "Your Name <info@example.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@todesktop/cli": "^1.9.3",
+    "@todesktop/cli": "^1.11.5",
     "electron": "30.0.8"
   },
   "dependencies": {
