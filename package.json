@@ -15,7 +15,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@todesktop/cli": "^1.11.5",
-    "electron": "30.0.8",
+    "electron": "36.5.0",
     "@playwright/test": "^1.53.1"
   },
   "dependencies": {
