@@ -14,7 +14,7 @@
   "author": "Your Name <info@example.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@todesktop/cli": "^1.11.5",
+    "@todesktop/cli": "^1.13.0",
     "electron": "30.0.8",
     "@playwright/test": "^1.53.1"
   },
