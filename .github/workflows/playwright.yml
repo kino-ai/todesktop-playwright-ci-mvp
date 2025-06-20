@@ -9,6 +9,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    container: mcr.microsoft.com/playwright:v1.53.1-focal 
     timeout-minutes: 60
 
     steps:
@@ -20,14 +21,18 @@ jobs:
         with:
           bun-version: "1.2.7"
 
-      - name: Install dependencies
+      - name: Install deps (node & electron already inside container)
         run: bun install --frozen-lockfile
 
-      - name: Install Playwright browsers
-        run: bunx playwright install --with-deps
+      - name: Install system libs for Electron
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libgtk-3-0 libnss3 libasound2 libatk-bridge2.0-0 \
+            libx11-xcb1 libxss1 libxkbcommon0 libxext6 libdrm2 libgbm1
 
       - name: Run Playwright tests
-        run: xvfb-run -a bunx playwright test
+        run: bunx playwright test
 
       - name: Upload HTML report
         if: ${{ !cancelled() }}
