@@ -8,15 +8,18 @@
   "scripts": {
     "release": "todesktop release .",
     "build": "todesktop build .",
-    "start": "electron ."
+    "start": "electron .",
+    "e2e": "playwright test"
   },
   "author": "Your Name <info@example.com>",
   "license": "UNLICENSED",
   "devDependencies": {
     "@todesktop/cli": "^1.11.5",
-    "electron": "30.0.8"
+    "electron": "30.0.8",
+    "@playwright/test": "^1.53.1"
   },
   "dependencies": {
-    "@todesktop/runtime": "^1.6.2"
+    "@todesktop/runtime": "^1.6.2",
+    "playwright": "^1.53.1"
   }
 }
