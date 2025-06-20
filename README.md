@@ -3,6 +3,7 @@ this is a fork of the ToDesktop Electron starter that tests
 - Playwright for E2E testing in Electron
 - Continuous integration via Playwright + GitHub Actions
 - All using `bun`
+  
 
 # todesktop-quick-start
 
